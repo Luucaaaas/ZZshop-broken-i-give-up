@@ -1,0 +1,115 @@
+body
+{
+	text-align: center ;
+	background: #18161f ;     /*couleur du fond*/  
+    color: white;
+    font-family: 'Kantumruy Pro', sans-serif;
+	flex-direction: row;
+} 
+
+
+a 
+{
+	text-decoration: none;
+}
+a:visited 
+{
+	color: #ffffff;
+}
+
+a:active 
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.navbar 
+{
+	position: sticky;
+	top: 1px;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	height: 108px;
+	width: 100%;
+}
+.navbar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	display: flex;
+}
+.navbar li 
+{
+	margin: 25px;
+	position: relative;
+	background-color: #ffffff;
+}
+.navbar a 
+{
+	color: #000000;
+	font-size: 24px;
+	font-weight: bold;
+}
+.navbar a:hover
+{
+	display: block;
+	color: #FFFFFF;
+	background: #000000;
+
+}
+
+.navbar ul ul 
+{
+	display: none;
+	position: absolute;
+	text-align: left ;
+
+}	
+  
+.navbar ul li:hover ul 
+{
+	display: block;
+}
+  
+.navbar ul ul li
+{
+	width: 260px;
+	margin: 0;
+	border-bottom: 1px solid #000000;
+}
+  
+
+.ign a:hover 
+{
+	background: #ffffff
+}
+
+
+
+.list
+{
+	list-style : none
+}
+
+.timeline-time 
+{
+	background: #18161f;
+	color: #fff;
+}	
+.timeline-time:hover 
+{
+	text-decoration: none;
+	color: #000;
+	background: #ffffff;
+}
+
+
+
+
+
+
+      
